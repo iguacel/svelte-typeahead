@@ -1,5 +1,5 @@
 {
-  "name": "svelte-typeahead",
+  "name": "@iguacel/svelte-typeahead",
   "version": "4.4.1",
   "license": "MIT",
   "description": "Accessible, fuzzy search typeahead component",
@@ -14,7 +14,7 @@
     "test": "svelte-check --workspace test"
   },
   "dependencies": {
-    "fuzzy": "0.1.3",
+    "@iguacel/fuzzy": "0.1.4",
     "svelte-search": "^1.1.0"
   },
   "devDependencies": {

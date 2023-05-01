@@ -12,6 +12,13 @@ Try it in the [Svelte REPL](https://svelte.dev/repl/a1b828d80de24f7e995b2365782c
 
 ---
 
+## Fork
+
+@iguacel/svelte-typeahead
+
+Replace fuzzy with @iguacel/fuzzy to support diacritics
+Minor css changes
+
 <!-- TOC -->
 
 ## Installation

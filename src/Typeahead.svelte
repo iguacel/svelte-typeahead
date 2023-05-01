@@ -45,7 +45,7 @@
    */
   export let limit = Infinity;
 
-  import fuzzy from "fuzzy";
+  import fuzzy from "@iguacel/fuzzy";
   import Search from "svelte-search";
   import { tick, createEventDispatcher, afterUpdate } from "svelte";
 
