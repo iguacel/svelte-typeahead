@@ -2,7 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import svelte from "rollup-plugin-svelte";
 import svelteReadme from "svelte-readme";
-import pkg from "./package.json";
+import pkg from "./package.json"  assert { type: "json" };
 
 export default () => {
   if (!process.env.BUNDLE) {
